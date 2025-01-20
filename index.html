@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mahnoor Shahbaz</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f7e6fc, #e5e5e5);
+            color: #333;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: #533352;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+
+        .profile-img {
+            margin: 20px auto;
+            border-radius: 50%;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            display: block;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.1);
+        }
+
+        .container {
+            margin: 40px auto;
+            max-width: 900px;
+        }
+
+        .section {
+            margin: 20px 0;
+            padding: 30px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            color: #533352;
+            font-weight: bold;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-title span {
+            flex: 1;
+            height: 2px;
+            background: #e6aae6;
+            margin-left: 10px;
+            border-radius: 2px;
+        }
+
+        .section-content {
+            padding-left: 15px;
+        }
+
+        ol {
+            padding-left: 20px;
+            list-style-type: square;
+        }
+
+        li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #f05858;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #d33b3b;
+        }
+
+        .contact-info, .social-icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.2);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background: #4d4d4d;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mahnoor Shahbaz</h1>
+        <p>Nutritionist | Educator | Gen AI Learner</p>
+    </header>
+
+    <img src="profile-1efe-47a8-bcd8-849e0a1bba65.jpg" width="150" height="150" class="profile-img" alt="Mahnoor Shahbaz">
+
+    <div class="container">
+        <!-- Skills Section -->
+        <div class="section">
+            <div class="section-title">
+                Skills
+                <span></span>
+            </div>
+            <div class="section-content">
+                <ol>
+                    <li>Time Management</li>
+                    <li>SPSS Software Statistics</li>
+                    <li>Good Communication</li>
+                    <li>Good Listener</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <div class="section-title">
+                Education & Trainings
+                <span></span>
+            </div>
+            <div class="section-content">
+                <ol>
+                    <li>Bachelor of Diet and Nutritional Science - <a href="https://uol.edu.pk/">University of Lahore</a></li>
+                    <li>FSC Pre-Medical - <a href="https://pgc.edu/">Punjab Group of Colleges</a></li>
+                    <li>Matric - <a href="http://www.iiuischools.edu.pk/">International Islamic University Islamabad Schools</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="section">
+            <div class="section-title">
+                Experience
+                <span></span>
+            </div>
+            <div class="section-content">
+                <ol>
+                    <li>Nutritionist Intern at <a href="http://ssthlhr.com.pk/">Social Security Teaching Hospital</a></li>
+                    <li>Nutritionist Intern at <a href="https://www.mayohospital.gop.pk/">Mayo Hospital Lahore</a></li>
+                    <li>Nutritionist Intern at <a href="https://www.fjmu.edu.pk/sir-ganga-ram-hospital/">Sir Ganga Ram Hospital Lahore</a></li>
+                    <li>Nutritionist Intern at <a href="https://www.facebook.com/ULTH.UOL/">University of Lahore Teaching Hospital</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Honours Section -->
+        <div class="section">
+            <div class="section-title">
+                Honours and Awards
+                <span></span>
+            </div>
+            <div class="section-content">
+                <ol>
+                    <li>Internship Certificate at <a href="https://www.facebook.com/ULTH.UOL/">University of Lahore Teaching Hospital</a></li>
+                    <li>Certificate of National Science Competition from <a href="https://www.facebook.com/gseapk/">GSEA</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="section">
+            <div class="section-title">
+                Contact Info
+                <span></span>
+            </div>
+            <div class="contact-info">
+                <a href="https://wa.me/3406215552">Contact @ WhatsApp</a>
+                <a href="mailto:mahi60119@gmail.com">Email @ Mahnoor</a>
+            </div>
+        </div>
+
+        <!-- Social Section -->
+        <div class="section">
+            <div class="section-title">
+                Follow Me
+                <span></span>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/mah_noor7160/profilecard/?igsh=MXU4bjZqczA4Yzg1ZA==">
+                    <img src="insta logo.jpg" alt="Instagram">
+                </a>
+                <a href="https://github.com/Mahnoor366880">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/640px-Octicons-mark-github.svg.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/mahnoor-shahbaz-7758992a8">
+                    <img src="md_5aeedf97b2531.jpg" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Thank you for visiting my portfolio! Feel free to connect with me. 😊</p>
+          <p>© 2025 Mahnoor Shahbaz. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
